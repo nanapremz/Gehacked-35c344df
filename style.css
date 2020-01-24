@@ -1,0 +1,152 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: "IBM Plex Mono",Menlo,"DejaVu Sans Mono","Bitstream Vera Sans Mono",Courier,monospace;
+    color:#132732;
+}
+.material-icons.md-light{
+     color: #FFFFFF;
+}
+header{
+    background-color:#F5F5F5;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0,0, .2);
+    position: relative;
+}
+.logo{
+    padding: 10px;
+}
+.int{
+    display: flex;
+    flex-direction: row;
+}
+.tokennummer{
+    position: relative; ;
+    top: 3.5px;
+}
+.tokens{
+    display: flex;
+    align-self: center;
+    padding: 10px;
+}
+.infnm{
+    position: relative;
+    top: 12px;
+}
+#arrow{
+    position: relative;
+    top: 8px;
+}
+
+.info{
+    display: flex;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    border-left:#cccccc solid 1px;
+    padding: 10px;
+    height: 40px;
+    color:#000;
+}
+.info:hover{
+    background-color: #E7F1F6;
+}
+.dropdown:hover{
+    z-index: 1000;
+}
+.dropdownlst{
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    width: 200px;
+    height: 160px;
+    background-color:#FFF;
+    border: 0px;
+    border-radius: 5px;
+    z-index: -1;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0,0, .2);
+}
+.dropbtn{
+    padding: 8px;
+}
+.dropbtn:hover{
+    background-color: #F5F5F5;
+}
+.material-icons.grey600 {
+     color: #707070;
+}
+.btntxt{
+    position: relative;
+    bottom: 6px;
+    color: #707070;
+}
+a:visited{
+    color:#000;
+}
+.container{
+    display: flex;
+    
+}
+nav{
+    background-color:#132732;
+    width:65px;
+    height: 100vh;
+}
+ul{
+    list-style: none;
+    padding-inline-start:0px;
+}
+a{
+    text-decoration: none;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 55px;
+}
+.navicons :hover{
+    background-color:#214457;
+}
+.content{
+    width: 100%;
+}
+h1{
+    font-weight: lighter;
+    font-size: 45px;
+    padding-left: 30px;
+}
+.title{
+    background-color: #1C96A3;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 165px;
+    
+}
+table{
+    width: 100%;
+    padding: 20px;
+    border-spacing: 0;
+}
+th{
+    color: #888888;
+    border: 0px;
+    width: 33%;
+    padding:20px;
+    text-align: left;
+}
+td  {
+    width: 33%;
+    border-top: solid 1px #b3b3b3;
+    padding:20px;
+}
